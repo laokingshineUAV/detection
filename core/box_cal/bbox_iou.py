@@ -26,6 +26,7 @@ def bbox_iou(boxes1, boxes2, mode='IOU', eps=1e-7):
 
     assert boxes1.shape[:-2] == boxes1.shape[:-2]
 
+
     batch_size = boxes1.shape[:-2]
 
     # Union Area
